@@ -1,0 +1,29 @@
+.menu_bars div{
+    background-color: white;
+    width: 40px;
+    height:5px;
+    margin:6px;
+    margin-left: 10%;
+    margin-top: -1%;
+    
+}
+.navbars a button{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-top: 2%;
+    border-radius: 10px;
+    gap: 1px;
+}
+body{
+    background-color:rgb(132,173, 195);
+}
+.navbars a #career{
+    margin-top:-10%;
+}
+#log_Out button{
+    margin-top: 20%;
+}
