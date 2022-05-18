@@ -42,7 +42,7 @@ body{
     position: absolute;
 }
 
-/* #log_Out{
+#log_Out{
     margin-top: 20%;
 } 
 .image2{
@@ -62,7 +62,7 @@ body{
 #kayoo{
     padding-left: 71%;
 }
-.image2 > img{
+/* .image2 > img{
     width:95%;
     margin-top: 10%;
 }
