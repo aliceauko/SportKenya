@@ -23,10 +23,6 @@
 body{
     background-color:rgb(132,173, 195);
 }
-/* .navbars a #career{
-    margin-top:-10%;
-}
-
 .player_navbar h2{
     position: fixed;
 }
@@ -34,7 +30,7 @@ body{
     position: fixed;
 }
 
-.player_navbar h2:after{
+/* .player_navbar h2:after{
     content: "";
     display: block;
     width: 120px;
@@ -99,4 +95,4 @@ body{
 }
 .logout{
     margin-top:50%;
-}    */
+}    */ */
