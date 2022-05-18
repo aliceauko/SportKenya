@@ -249,6 +249,7 @@ button:hover{
     justify-content: center;
     padding: 0 25px;
     height: 360px;
+    position: absolute;
 }
 
 .part .img{
@@ -273,8 +274,20 @@ button:hover{
     padding: 0px 20px 0px 35px;
     width: 350px;
     margin-left:50px;
+    opacity: 0;
+    transition: .6s;
 }
 
+
+#tap1:checked ~ .part .con{
+    opacity: 1;
+    z-index: 100;
+    margin-left: 0px;
+    transition-delay: .2s;
+}
+
+
+}
 .con span{
     display: block;
     color: #9bb5c6;
