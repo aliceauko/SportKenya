@@ -158,3 +158,27 @@ header{
     border-radius: 10px;
     background-color:#1795ce ;
 }
+
+
+
+#upcoming{
+margin-top: 70px
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contain >.one p{
+  margin-left: 30px;
+}
+
+.contain > .two p{
+    margin-right:30px ;
+}
+
+
+

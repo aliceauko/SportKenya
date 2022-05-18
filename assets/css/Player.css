@@ -65,3 +65,10 @@ body{
     border-radius: 10px;
     padding-left: 15px;
 }
+.content_elements{
+    margin: 10%;
+    padding:5%;
+}
+.navbars #log_Out{
+    margin-top:10%;
+}
