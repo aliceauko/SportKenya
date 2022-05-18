@@ -165,6 +165,10 @@ header{
 margin-top: 70px
 }
 
+#upcoming >h1{
+    font-size: 48px;
+}
+
 .contain{
     display: flex;
     flex-direction: row;
@@ -172,13 +176,51 @@ margin-top: 70px
     margin-top: 30px;
 }
 
-.contain >.one p{
-  margin-left: 30px;
+.contain >.one , content{
+  margin-left: 35px;
 }
 
-.contain > .two p{
-    margin-right:30px ;
+.contain > .two, content{
+    margin-right:35px ;
 }
+.content{
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+
+.containe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.containe >.three, content{
+    margin-left: 35px;
+  }
+  
+  .containe > .four, content{
+      margin-right:35px ;
+  }
+  .content{
+      margin-top: 20px;
+      font-size: 36px;
+  }
+
+  button{
+    padding: 10px;
+    background-color:#EC4067;
+    border: 1;
+    border-radius: 10px;
+    border-color: #EC4067;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+button:hover{
+    background-color: antiquewhite;
+    color: #EC4067;
 
 
 
