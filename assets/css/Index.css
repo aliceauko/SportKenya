@@ -7,28 +7,41 @@ body{
     margin: 0;
     padding: 0;
 }
+/*Header*/
 
 header{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-image: url(../Images/Group\ 1.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    
+    
+
+}
+
+.logo{
+    margin-left: 30px;
 }
 
 #navi a{
     color: black;
     display: block;
-    height: 64px;
+    height: 34px;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    
+    font-size: 24px;
+    margin-top:5px;
     
 }
 
 #navi a:hover{
-    background: blue;
+    background:#fffff7;
 }
 
 #navi ul{
@@ -36,6 +49,7 @@ header{
     display: flex;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    top: 0;
     
 }
 #navi li{
@@ -58,6 +72,7 @@ header{
     display: none;
     position: absolute;
     top: 0px;
+    font-size: 12px;
 
 }
 
@@ -66,6 +81,7 @@ header{
     flex-direction: column;
     position: absolute;
     width: 100%;
+    font-size: 12px;
 
 }
 
@@ -94,3 +110,259 @@ header{
     color: black;
     font-size: 12px;
 }
+
+
+/*Search bar*/
+
+.search{
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border-style: solid;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.search:hover{
+    width: 400px;
+   
+}
+
+
+/*Base of header*/
+.yesno{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.yes{
+    margin-top: 130px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.no{
+    border: solid;
+    padding: 30px;
+    height: 200px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 50px;
+    box-shadow: 3 3 3;
+    border-radius: 10px;
+    background-color:#1795ce ;
+}
+
+
+
+#upcoming{
+margin-top: 70px
+}
+
+#upcoming >h1{
+    font-size: 48px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contain >.one , content{
+  margin-left: 35px;
+}
+
+.contain > .two, content{
+    margin-right:35px ;
+}
+.content{
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+
+.containe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.containe >.three, content{
+    margin-left: 35px;
+  }
+  
+  .containe > .four, content{
+      margin-right:35px ;
+  }
+  .content{
+      margin-top: 20px;
+      font-size: 36px;
+  }
+
+  button{
+    padding: 15px 20px;
+    background-color:#EC4067;
+    border: 1;
+    border-radius: 10px;
+    border-color: #EC4067;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+button:hover{
+    background-color: antiquewhite;
+    color: #EC4067;
+}
+
+#slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #9bb5c6;
+
+}
+
+.cad{
+    position: absolute;
+    height: 370px;
+    width:95% ;
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 10px 50px black;
+}
+
+.cad .part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    height: 360px;
+    position: absolute;
+}
+
+.part .img{
+    height: 250px;
+    width: 260px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 2px 3px 15px rgba(254, 64,103, .3);
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    /*opacity: 0;*/
+
+}
+
+.con{
+    padding: 0px 20px 0px 35px;
+    width: 350px;
+    margin-left:50px;
+    opacity: 0;
+    transition: .6s;
+}
+
+
+#tap1:checked ~ .part .con{
+    opacity: 1;
+    z-index: 100;
+    margin-left: 0px;
+    transition-delay: .2s;
+}
+
+
+}
+.con span{
+    display: block;
+    color: #9bb5c6;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ .con .title{
+     font-size: 36px;
+     font-weight:700;
+     color: #1795ce;
+     margin-bottom: 15px;
+
+
+ }
+
+ .con .titl{
+     font: size 19px; 
+     margin-bottom: 20px;
+     line-height: 1.5em;
+     text-align: justify;
+
+
+ }
+
+ .con button{
+     display: inline-flex;
+     padding: 15px 20px;
+     border: none;
+     font-size: 16px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: bold;
+     border: 1px;
+     cursor: pointer;
+ }
+
+ .slid{
+     position: absolute;
+     bottom: 35px;
+     left: 70%;
+     transform: translateX(-50%)
+     
+
+ }
+
+
+ .slid .ta{
+     position: relative;
+     height: 10px;
+     width: 50px;
+     background:linear-gradient(to right, #DECBA4, #3E5151);
+     display: inline-flex;
+     border-radius: 5px;
+     margin: 0 3px;
+     cursor: pointer;
+
+ }
+ .slid .ta:before{
+     position: absolute;
+     content: ''; 
+     top: 0;
+     left: 0;
+     border-radius: 10px;
+     height: 100%;
+     width: 100%;
+     transform: scaleX(0);
+     transition: transform 0.6s;
+     transform-origin: left;
+     background:linear-gradient(to right, #DECBA5, #3E5151);
+
+ }
+
+ .slid .ta:hover:before{
+     transform: scaleX(1);
+     width: 100%;
+ }
