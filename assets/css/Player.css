@@ -3,20 +3,22 @@
     width: 40px;
     height:5px;
     margin:6px;
-    margin-left: 7%;
-    margin-top: -1%;
-    
+    margin-left: 10%;
 }
- .navbars a button{
+/* .menu_bars{
+    margin-bottom: -2%;
+}
+ .navbars button{
     display: block;
     width: 150px;
     height: 40px;
     background-color: white;
     color: black;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 6%;
     border-radius: 10px;
     gap: 1px;
+    font-size: large;
 }
 body{
     background-color:rgb(132,173, 195);
@@ -24,27 +26,49 @@ body{
 .navbars a #career{
     margin-top:-10%;
 }
+
+.player_navbar h2{
+    position: fixed;
+}
+.navbars{
+    position: fixed;
+}
+
+.player_navbar h2:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    border-radius: 1em;
+    background-color: black;
+    left: 0;
+    top: 48;
+    position: absolute;
+}
+
 #log_Out{
     margin-top: 20%;
 } 
 .image2{
     padding-left: 8%;
     margin-top:-23%;
+    border-radius: 5%;
 }
 .name{
     position: absolute;
     left: 180px;
-    bottom: 70%;
+    bottom: 60%;
     color: white;
     font-size:xx-large;
-    padding-left: 5%;
+    padding-left: 15%;
     font-weight: bold;
 }
 #kayoo{
     padding-left: 71%;
 }
-.image2 img{
-    width: 1000px;
+.image2 > img{
+    width:95%;
+    margin-top: 10%;
 }
 .line{
     height: 2px;
@@ -52,23 +76,27 @@ body{
     background-image: linear-gradient;
     float: right;
 }
+.images1{
+    position: fixed;
+}
 .content_box{
     position: absolute;
     left: 180px;
-    bottom: 40%;
+    bottom: 30%;
     color: black;
     font-weight: bold;
     background-color: white;
-    height: 420px;
-    width:400px;
+    height: 520px;
+    width:500px;
     margin-bottom: -15%;
     border-radius: 10px;
     padding-left: 15px;
+    font-size: x-large;
 }
 .content_elements{
     margin: 10%;
     padding:5%;
 }
-.navbars #log_Out{
-    margin-top:10%;
-}
+.logout{
+    margin-top:50%;
+} */
