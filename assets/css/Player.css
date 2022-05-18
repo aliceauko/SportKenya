@@ -8,7 +8,7 @@
 .menu_bars{
     margin-bottom: -2%;
 }
- /* .navbars button{
+ .navbars button{
     display: block;
     width: 150px;
     height: 40px;
@@ -20,7 +20,7 @@
     gap: 1px;
     font-size: large;
 }
-body{
+/* body{
     background-color:rgb(132,173, 195);
 }
 .navbars a #career{
@@ -99,4 +99,4 @@ body{
 }
 .logout{
     margin-top:50%;
-}  */
+}   */
