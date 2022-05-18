@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 body{
     margin: 0;
@@ -11,12 +14,14 @@ body{
 
 header{
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-image: url(../Images/back.png);
     width: 100%;
     height: 100%;
-    background-position: center;
+    background-position:center;
+    z-index: 1000;
+    overflow-y: scroll;
     
 }
 
@@ -154,7 +159,7 @@ nav{
 }
 
 .no{
-    border: solid;
+    border: solid #009efe;
     padding: 30px;
     height: 200px;
     font-size: 32px;
@@ -164,11 +169,12 @@ nav{
     box-shadow: 3 3 3;
     border-radius: 10px;
     background-color:#009efe;
+
+
 }
 
 .no:hover{
-    box-shadow: 3px 3px 3px #9bb5c6;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #upcoming{
@@ -178,6 +184,10 @@ margin-bottom: 70px;
 
 #upcoming >h1{
     font-size: 48px;
+}
+
+img{
+    height:300x;
 }
 
 
@@ -225,24 +235,28 @@ margin-bottom: 70px;
 
   button{
     padding: 15px 20px;
-    background-color:#EC4067;
+    background-color:#009efe;
     border: 1;
     border-radius: 10px;
-    border-color: #EC4067;
+    border-color: #009efe;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
     
 }
 button:hover{
     background-color: antiquewhite;
-    color: #EC4067;
+    color:#009efe;
 }
 
 h1{
     margin-bottom: 20px;
     margin-left: 30px;
     font-size: 36px;
-
+    color: #009efe;
+    font-weight: 800;
 
 
 }
@@ -265,8 +279,10 @@ h1{
     margin-right: 100px;
     font-size: 20px;
     line-height:1.5em;
+    
 }
 
+ 
 /* Footer styling*/
 
 .footer{
