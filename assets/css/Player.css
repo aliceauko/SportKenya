@@ -30,7 +30,7 @@ body{
     position: fixed;
 }
 
-/* .player_navbar h2:after{
+.player_navbar h2:after{
     content: "";
     display: block;
     width: 120px;
@@ -42,7 +42,7 @@ body{
     position: absolute;
 }
 
-#log_Out{
+/* #log_Out{
     margin-top: 20%;
 } 
 .image2{
@@ -95,4 +95,4 @@ body{
 }
 .logout{
     margin-top:50%;
-}    */ */
+}    */
