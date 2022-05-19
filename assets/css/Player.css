@@ -82,30 +82,51 @@ section{
     width: 800px;
     margin-left:30%;
     height: 250px;
+    border-radius: 10px;
 }
 #stats{
     background:var(--black2);
     margin: 5px;
     width:800px;
+    height: 200px;
     margin-left: 40%;
+    border-radius: 10px;
+    
 }
 #schedule{
     background: var(--black2);
     margin: 5px;
     margin-left: 40%;
     width:800px;
-    height: 600px;
+    height: 400px;
     gap: 2px;
+    border-radius: 10px;
 }
 #career p{
-    margin-top: 8%;
+    margin-top: 1%;
+    line-height: 2em;
+    padding-left: 10px;
+}
+#career h2{
+    padding-left: 30%;
 }
 #career{
     margin-left:40%;
-    
+}
+#stats h2{
+    padding-left: 30%;
 }
 #stats li{
-    margin-top: 8%;
+    margin-top: 3%;
+    line-height: 0.2em;
+    padding-left: 0.1px;
+}
+#schedule h2{
+    padding-left: 30%;
+}
+#schedule ul li{
+    line-height: 1em;
+    margin-top: 3%;
 }
 
 .player_navbar h2:after{
