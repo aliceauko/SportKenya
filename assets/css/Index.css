@@ -29,11 +29,13 @@ header{
     margin-left: 30px;
     margin-bottom: 30px;
     padding: 10px;
+    
 }
 nav{
     border: solid;
-    background-color: white;
+    background-color:rgba(225,225,225, 0.7);
     border-radius: 10px;
+    border-width: 0.001ex;
 }
 
 #navi a{
@@ -133,8 +135,16 @@ nav{
     margin-top: 30px;
     margin-left: 30px;
     background-color:rgba(225,225,225, 0.7);
+    border-width: 0.001ex;
+    animation-name: search;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes search{
+    from {width:200px;}
+    to {width: 400px;}
+}
 .search:hover{
     width: 400px;
    
@@ -168,14 +178,18 @@ nav{
     margin-top: 50px;
     box-shadow: 3 3 3;
     border-radius: 10px;
-    background-color:#009efe;
-
+    background-color:rgba(0, 158, 254,0.7);
+    border-width:0.01ex;
 
 }
 
 .no:hover{
     margin-top: 5px;
 }
+
+
+/*Second section*/
+
 
 #upcoming{
 margin-top: 70px;
@@ -235,7 +249,7 @@ img{
 
   button{
     padding: 15px 20px;
-    background-color:#009efe;
+    background-color:rgba(0, 158, 254,0.7);
     border: 1;
     border-radius: 10px;
     border-color: #009efe;
@@ -287,7 +301,7 @@ h1{
 
 .footer{
     padding: 100px;
-    background-color:#009efe;
+    background-color:rgba(0, 158, 254,0.7);
 
 }
 
