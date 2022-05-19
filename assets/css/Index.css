@@ -132,18 +132,20 @@ nav{
     width: 200px;
     border-radius: 50px;
     border-style: solid;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 30px;
     background-color:rgba(225,225,225, 0.7);
     border-width: 0.001ex;
     animation-name: search;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 15px;
 }
 
 @keyframes search{
-    from {width:200px;}
-    to {width: 400px;}
+    from {width:200px;font-size: 15px;}
+    to {width: 400px; font-size: 20px;}
 }
 .search:hover{
     width: 400px;
@@ -166,7 +168,10 @@ nav{
     margin-top: 130px;
     font-size: 30px;
     margin-left: 20px;
+    
 }
+
+
 
 .no{
     border: solid #009efe;
