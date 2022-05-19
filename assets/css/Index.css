@@ -10,6 +10,13 @@ body{
     margin: 0;
     padding: 0;
 }
+:root {
+    --blue: #84ADC3;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+  }
 /*Header*/
 
 header{
@@ -53,7 +60,7 @@ nav{
 }
 
 #navi a:hover{
-    background:#009efe;
+    background:var(--blue);
 }
 
 #navi ul{
@@ -183,7 +190,7 @@ nav{
     margin-top: 50px;
     box-shadow: 3 3 3;
     border-radius: 10px;
-    background-color:rgba(0, 158, 254,0.7);
+    background-color:rgba(132, 173, 195,0.7);
     border-width:0.01ex;
 
 }
@@ -254,10 +261,10 @@ img{
 
   button{
     padding: 15px 20px;
-    background-color:rgba(0, 158, 254,0.7);
+    background-color:rgba(132, 173,195,0.7);
     border: 1;
     border-radius: 10px;
-    border-color: #009efe;
+    border-color:var(--blue);
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: 16px;
@@ -274,7 +281,7 @@ h1{
     margin-bottom: 20px;
     margin-left: 30px;
     font-size: 36px;
-    color: #009efe;
+    color:var(--blue);
     font-weight: 800;
 
 
@@ -306,7 +313,7 @@ h1{
 
 .footer{
     padding: 100px;
-    background-color:rgba(0, 158, 254,0.7);
+    background-color:rgba(132, 173,195,0.7);
 
 }
 
