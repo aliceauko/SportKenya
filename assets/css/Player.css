@@ -20,6 +20,9 @@
     gap: 1px;
     font-size: large;
 }
+.navbars button:hover{
+    color: #009efe;
+}
 body{
     background-color:rgb(132,173, 195);
 }
