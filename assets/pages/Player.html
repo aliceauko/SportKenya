@@ -9,13 +9,12 @@
     <script src="https://kit.fontawesome.com/93f3c3058e.js" crossorigin="anonymous"></script>
     <title>Players' Section</title>
     <style>
-        img {
-            max-width: 100%;
-        }
+    
     </style>
 </head>
 
 <body>
+<!--Navigation bar-->
     <div class="player_navbar">
         <!-- <h2>Player</h2> -->
         <div class="menu_icon">
@@ -27,43 +26,75 @@
             <div class="line"></div>
             <!-- <div class="image1"><img src="../Images/Ellipse 1.png"></div> -->
         </div>
-         <!-- <h2>Scott Joe</h2>  -->
+        <!-- <h2>Scott Joe</h2>  -->
         <div class="line"></div>
         <div class="navbars">
             <h2 style="margin-top: 0.3px;">Player</h2>
             <div class="image1" style="margin-top: 35px;"><img src="../Images/Ellipse 1.png"></div>
-            
-            <div class="dashboard" style="margin-top: 20px;">
-                <button><i class="fa-solid fa-align-justify"></i> Dashboard</button>
-            </div>
-            <div class="career">
-                <button><i class="fa-solid fa-medal"></i> Career</button>
-            </div>
-            <div class="stats">
-                <button><i class="fa-solid fa-signal"></i> Stats</button>
-            </div>
-            <div class="schedule">
-                <button><i class="fa-solid fa-clipboard-list"></i> Schedule</button>
-            </div>
-            <div class="logout">
-                <button><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</button>
-            </div>
+            <ul>
+                <li><a href="#dashboard"><span><i class="fa-solid fa-align-justify"></i></span></a></i>Dashboard</li>
+                <li><a href="#career"><span><i class="fa-solid fa-medal"></span></a></i>Career</li>
+                <li><a href="#stats"><span><i class="fa-solid fa-signal"></span></a></i>Stats</li>
+                <li><a href="#schedule"><span><i class="fa-solid fa-clipboard-list"></span></a></i>Schedule</li>
+                <li><a href="#logout"><span><i class="fa-solid fa-arrow-right-from-bracket"></span></a></i>Log Out</li>
+            </ul>
         </div>
     </div>
-    <div class="image2">
-            <img src="../Images/africa.png">
-        <div class="name">
-            PETER
-            <div id="kayoo">KAYOO</div>
+<!--Dashboard-->
+        <section id="dashboard">
+            <div class="image2">
+                <img src="../Images/africa.png">
+                <div class="name">
+                    PETER
+                    <div id="kayoo">KAYOO</div>
+                </div>
+                <div class="content_box">
+                    <p class="content_elements">Age:26yrs<br><br>
+                        Nationality: Kenyan<br><br>
+                        career:Basketeer
+                    </p>
+                </div>
+            </div>
+<!--content-->
+        <div class="content1" id="content1">
+            <div id="career">
+                <h2>Career</h2>
+                <p>Kenya men's national under-18 basketball team (between 2014-2016)<br>Kenya Ports Authority
+                    basketball team (between 2017-2018)<br>Kenya Commercial Bank basketball team (in the year
+                    2019).Kenya men's national basketball team (currently)</p>
+            </div>
+               
+            <div id="stats">
+                <h2>Stats</h2>
+                <ul>
+                    <li>Three Pointers Made (20)</li>
+                    <li>Free Throws Made (32)</li>
+                    <li>Fantasy Points (22)</li>
+                </ul>
+    
+            </div>
+            <div id="schedule">
+                <h2>Schedule</h2>
+                <ul>
+                    <li>
+                        DR Congo <span>1 Jul <br></span>
+                        Kenya <span>18:00</span>
+                    </li>
+                    <li>
+                        Kenya <span>8 Jul <br></span>
+                        Egypt <span>18:00</span>
+                    </li>
+                    <li>
+                        Senegal <span>15 Jul <br></span>
+                        Kenya <span>18:00</span>
+                    </li>
+                    <li>
+                        Rwanda <span>22 Jul <br></span>
+                        Kenya <span>18:00</span>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="content_box">
-            <p class="content_elements">Age:26yrs<br><br>
-                Nationality: Kenyan<br><br>
-                career:Basketeer
-            </p>
-
-        </div>
-    </div>
 </body>
 
 </html>
