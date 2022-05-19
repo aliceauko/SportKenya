@@ -101,9 +101,10 @@ body {
 /* ===================== Main ===================== */
  .main {
   position: absolute;
-  width: 20%;
+  width: 25%;
   left: 300px;
   background: var(--white);
+
   
 }
 
@@ -111,20 +112,20 @@ body {
 
 .rab{
   background-color: var(--blue);
-  border-radius: 2%;
-  padding: 5%;
-  width: 400%;
+  border-radius: 0%;
+  padding: 3%;
+  width: 350%;
   margin-right: 15%;
   
   
 }
 .topbar {
-   width: 100%;
+   width: 80%;
   height: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   
  
 }
@@ -133,20 +134,26 @@ body {
   margin: 0;
   display: block;
   height: 100%;
+  width: 100%;
 }
 #para1{
     margin-bottom: 10%;
-    display: block;
+    display: inline-flex;
     height: 100% ;
+    width: 100%;
 }
 #para2{
   
   display: flex;
-  height: 100% ;
-  font-size: 140%;
+  
 }
-.dis .gap{
-  padding-bottom: 10px;
+.flt{
+  float: right;
+  margin-left: 130%;
+
+}
+.title{
+  border-width: 0;
 }
 
 
