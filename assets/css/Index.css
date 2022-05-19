@@ -1,3 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+
+header{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../Images/Group\ 1.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    
+    
+
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+#navi a{
+    color: black;
+    display: block;
+    height: 34px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top:5px;
+    
+}
+
+#navi a:hover{
+    background:#fffff7;
+}
+
+#navi ul{
+    list-style: none;
+    display: flex;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+}
+#navi li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+#navi li:hover .menu1 > li{
+
+    display: block;
+    top: 0px;
+}
+
+
+
+
+.menu1 li{
+    display: none;
+    position: absolute;
+    top: 0px;
+    font-size: 12px;
+
+}
+
+.menu1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+
+}
+
+.menu1 li  {
+    position: relative;
+}
+.menu1 li:hover .menu2 li{
+    display: block;
+}
+
+.menu2 li{
+    display: none;
+}
+
+.menu2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 120px;
+}
+
+.arrow{
+    margin-left: 8px;
+    color: black;
+    font-size: 12px;
+}
+
+
+/*Search bar*/
+
+.search{
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border-style: solid;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.search:hover{
+    width: 400px;
+   
+}
+
+
+/*Base of header*/
+.yesno{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.yes{
+    margin-top: 130px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.no{
+    border: solid;
+    padding: 30px;
+    height: 200px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 50px;
+    box-shadow: 3 3 3;
+    border-radius: 10px;
+    background-color:#1795ce ;
+}
+
+
+
+#upcoming{
+margin-top: 70px
+}
+
+#upcoming >h1{
+    font-size: 48px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contain >.one , content{
+  margin-left: 35px;
+}
+
+.contain > .two, content{
+    margin-right:35px ;
+}
+.content{
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+
+.containe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.containe >.three, content{
+    margin-left: 35px;
+  }
+  
+  .containe > .four, content{
+      margin-right:35px ;
+  }
+  .content{
+      margin-top: 20px;
+      font-size: 36px;
+  }
+
+  button{
+    padding: 10px;
+    background-color:#EC4067;
+    border: 1;
+    border-radius: 10px;
+    border-color: #EC4067;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+button:hover{
+    background-color: antiquewhite;
+    color: #EC4067;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *{
@@ -322,3 +548,4 @@ h1{
     margin-left: 350px;
     font-weight: bold;
 }
+
