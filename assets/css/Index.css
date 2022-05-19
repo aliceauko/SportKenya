@@ -377,8 +377,8 @@ nav{
 }
 
 @keyframes search{
-    from {width:200px;font-size: 15px;}
-    to {width: 400px; font-size: 20px;}
+    from {width:200px;font-size: 15px; color: black;}
+    to {width: 400px; font-size: 20px;color:var(--blue);}
 }
 .search:hover{
     width: 400px;
