@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
@@ -223,14 +222,10 @@ margin-top: 70px
 button:hover{
     background-color: antiquewhite;
     color: #EC4067;
+}
 
-
-
-=======
-=======
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
->>>>>>> 7eafb6ff0038864b850d94c542f8df4d2f2f765f
 *{
     margin: 0;
     padding: 0;
@@ -241,6 +236,13 @@ body{
     margin: 0;
     padding: 0;
 }
+:root {
+    --blue: #84ADC3;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+  }
 /*Header*/
 
 header{
@@ -284,7 +286,7 @@ nav{
 }
 
 #navi a:hover{
-    background:#009efe;
+    background:var(--blue);
 }
 
 #navi ul{
@@ -375,8 +377,8 @@ nav{
 }
 
 @keyframes search{
-    from {width:200px;font-size: 15px;}
-    to {width: 400px; font-size: 20px;}
+    from {width:200px;font-size: 15px; color: black;}
+    to {width: 400px; font-size: 20px;color:var(--blue);}
 }
 .search:hover{
     width: 400px;
@@ -414,7 +416,7 @@ nav{
     margin-top: 50px;
     box-shadow: 3 3 3;
     border-radius: 10px;
-    background-color:rgba(0, 158, 254,0.7);
+    background-color:rgba(132, 173, 195,0.7);
     border-width:0.01ex;
 
 }
@@ -485,10 +487,10 @@ img{
 
   button{
     padding: 15px 20px;
-    background-color:rgba(0, 158, 254,0.7);
+    background-color:rgba(132, 173,195,0.7);
     border: 1;
     border-radius: 10px;
-    border-color: #009efe;
+    border-color:var(--blue);
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: 16px;
@@ -505,7 +507,7 @@ h1{
     margin-bottom: 20px;
     margin-left: 30px;
     font-size: 36px;
-    color: #009efe;
+    color:var(--blue);
     font-weight: 800;
 
 
@@ -537,7 +539,7 @@ h1{
 
 .footer{
     padding: 100px;
-    background-color:rgba(0, 158, 254,0.7);
+    background-color:rgba(132, 173,195,0.7);
 
 }
 
@@ -546,4 +548,4 @@ h1{
     margin-left: 350px;
     font-weight: bold;
 }
->>>>>>> d7a0eff1bd657b824ca7c650d73efb598d02d96b
+

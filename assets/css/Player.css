@@ -3,48 +3,166 @@
     width: 40px;
     height:5px;
     margin:6px;
-    margin-left: 7%;
-    margin-top: -1%;
-    
+    margin-left: 10%;
 }
- .navbars a button{
+.menu_bars{
+    margin-bottom: -2%;
+}
+:root {
+    --blue: #84ADC3;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+  }
+ .navbars button{
     display: block;
     width: 150px;
     height: 40px;
     background-color: white;
     color: black;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 6%;
     border-radius: 10px;
     gap: 1px;
+    font-size: large;
+}
+.navbars button:hover{
+    color: #009efe;
+    cursor: pointer;
 }
 body{
-    background-color:rgb(132,173, 195);
+    background-color: var(--blue);
 }
-.navbars a #career{
-    margin-top:-10%;
+.player_navbar h2{
+    position: fixed;
 }
-#log_Out{
-    margin-top: 20%;
-} 
+.navbars{
+    position: fixed;
+    background: var(--blue);
+    transition: 0.5s;
+}
+ul{
+    list-style: none;
+    margin: 5px;
+    height: 100%;
+    width:100%;
+}
+ul li{
+    padding: 5px;
+    margin:5px;
+    margin-left:-10px;
+    margin-top: 60px;
+    font-size: larger;
+}
+ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 4px;
+}
+ul li a span{
+    padding-right: 2%;
+}
+ul li a:hover{
+    background-color: blue;
+}
+.content1{
+    font-size: larger;
+    margin-left: 10%;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#career{
+    background: var(--black2);
+    margin: 5px;
+    justify-content: space-around;
+    width: 800px;
+    margin-left:30%;
+    height: 250px;
+    border-radius: 10px;
+}
+#stats{
+    background:var(--black2);
+    margin: 5px;
+    width:800px;
+    height: 200px;
+    margin-left: 40%;
+    border-radius: 10px;
+    
+}
+#schedule{
+    background: var(--black2);
+    margin: 5px;
+    margin-left: 40%;
+    width:800px;
+    height: 400px;
+    gap: 2px;
+    border-radius: 10px;
+}
+#career p{
+    margin-top: 1%;
+    line-height: 2em;
+    padding-left: 10px;
+}
+#career h2{
+    padding-left: 30%;
+}
+#career{
+    margin-left:40%;
+}
+#stats h2{
+    padding-left: 30%;
+}
+#stats li{
+    margin-top: 3%;
+    line-height: 0.2em;
+    padding-left: 0.1px;
+}
+#schedule h2{
+    padding-left: 30%;
+}
+#schedule ul li{
+    line-height: 1em;
+    margin-top: 3%;
+}
+
+.player_navbar h2:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    border-radius: 1em;
+    background-color: black;
+    left: 0;
+    top: 48;
+    position: absolute;
+}
 .image2{
     padding-left: 8%;
-    margin-top:-23%;
+    margin-top:5%;
+    border-radius: 5%;
+    margin-left: 7%;
 }
 .name{
     position: absolute;
-    left: 180px;
-    bottom: 70%;
+    bottom: 60%;
     color: white;
     font-size:xx-large;
-    padding-left: 5%;
-    font-weight: bold;
+    padding-left:1%;
+    font-weight:bold;
+    margin-left: 4%;
 }
 #kayoo{
     padding-left: 71%;
 }
-.image2 img{
-    width: 1000px;
+.image2 > img{
+    margin-top: 25%;
+    margin-left:16%;
+    height: 420px;
+    width: 620px;
 }
 .line{
     height: 2px;
@@ -52,23 +170,28 @@ body{
     background-image: linear-gradient;
     float: right;
 }
+.images1{
+    position: fixed;
+}
 .content_box{
     position: absolute;
     left: 180px;
-    bottom: 40%;
+    bottom: 60%;
     color: black;
     font-weight: bold;
     background-color: white;
-    height: 420px;
-    width:400px;
+    height: 200px;
+    width:220px;
     margin-bottom: -15%;
     border-radius: 10px;
-    padding-left: 15px;
+    padding-left: 50px;
+    font-size: x-large;
+    
 }
 .content_elements{
     margin: 10%;
     padding:5%;
 }
-.navbars #log_Out{
-    margin-top:10%;
-}
+.logout{
+    margin-top:50%;
+}     
