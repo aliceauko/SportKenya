@@ -32,7 +32,7 @@ The website comprises of a landing page a#######################################
 * Open the index file from the zipped file with any browser.
 
 ### Live_link
-###############################################
+https://aliceauko.github.io/SportKenya/
 
 ### Technology_used
 * HTML - Used to develop the structure of the website
