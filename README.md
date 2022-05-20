@@ -27,7 +27,7 @@ The website comprises of a landing page, coach page, player page and Admin page.
 
 ### Installation_Process
 
-* Clone the repo: git clone ####################################
+* Clone the repo: git clone https://github.com/aliceauko/SportKenya.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
 
@@ -40,7 +40,7 @@ https://aliceauko.github.io/SportKenya/
 * JS - Javascript
 
 ## Known_Bugs
-There are no known bags
+There is a bug of linking  user pages
 
 ## Licence
 MIT License
