@@ -16,7 +16,7 @@
 <p>This project entails creating a website for a Sports that also operates as a Events Hosting agency. The website is interactive and displays information relevant for potential clients such as the past Games Events, Best Players, Featured games / players, Coaches profiles, Sports News and pand many more. The website displays the images of the players, the specific Events and venues, and the Results</p>
 
 ## Features
-The website comprises of a landing page a###################################################. It has the following features:
+The website comprises of a landing page, coach page, player page and Admin page. It has the following features:
 1. Some of the menu buttons and links are interactive
 2. Login and sign-up buttons.
 3. The sign up and login buttons are not interactive.
